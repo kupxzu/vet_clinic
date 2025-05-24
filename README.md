@@ -95,11 +95,19 @@ structured_vet_system/
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+- DEVFUSION
 
 ## Authors
 
 - kupxzu - *Initial work*
+
+## Project Plan
+
+- This project is for educational purposes only.
+- The project planned by Vincent Mora
+- The project is a simple veterinary system
+- Logic and designed by kupxzu
+
 
 ## Acknowledgments
 
