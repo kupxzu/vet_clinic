@@ -107,6 +107,12 @@ redirectBasedOnRole('admin');
                         <a href="../admin/AdminPet.php" class="<?php echo basename($_SERVER['PHP_SELF']) === 'AdminPet.php' ? 'border-b-2 border-blue-500' : ''; ?> inline-flex items-center px-1 pt-1 text-gray-700 hover:text-blue-600">
                             <i class="fas fa-paw mr-2"></i> Pets
                         </a>
+                        <a href="../admin/AdminServices.php" class="<?php echo basename($_SERVER['PHP_SELF']) === 'AdminServices.php' ? 'border-b-2 border-blue-500' : ''; ?> inline-flex items-center px-1 pt-1 text-gray-700 hover:text-blue-600">
+                            <i class="fas fa-stethoscope mr-2"></i> Services
+                        </a>
+                        <a href="../admin/AdminPetCare.php" class="<?php echo basename($_SERVER['PHP_SELF']) === 'AdminPetCare.php' ? 'border-b-2 border-blue-500' : ''; ?> inline-flex items-center px-1 pt-1 text-gray-700 hover:text-blue-600">
+                            <i class="fas fa-heart mr-2"></i> Pet Care
+                        </a>
                     </div>
                 </div>
                 <div class="hidden sm:ml-6 sm:flex sm:items-center">
@@ -137,6 +143,12 @@ redirectBasedOnRole('admin');
                 <a href="../admin/AdminPet.php" class="<?php echo basename($_SERVER['PHP_SELF']) === 'AdminPet.php' ? 'bg-blue-50 border-l-4 border-blue-500 text-blue-700' : 'border-l-4 border-transparent'; ?> block pl-3 pr-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:border-gray-300">
                     <i class="fas fa-paw mr-2"></i> Pets
                 </a>
+                <a href="../admin/AdminServices.php" class="<?php echo basename($_SERVER['PHP_SELF']) === 'AdminServices.php' ? 'bg-blue-50 border-l-4 border-blue-500 text-blue-700' : 'border-l-4 border-transparent'; ?> block pl-3 pr-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:border-gray-300">
+                    <i class="fas fa-stethoscope mr-2"></i> Services
+                </a>
+                <a href="../admin/AdminPetCare.php" class="<?php echo basename($_SERVER['PHP_SELF']) === 'AdminPetCare.php' ? 'bg-blue-50 border-l-4 border-blue-500 text-blue-700' : 'border-l-4 border-transparent'; ?> block pl-3 pr-4 py-2 text-base font-medium text-gray-700 hover:bg-gray-50 hover:border-gray-300">
+                    <i class="fas fa-heart mr-2"></i> Pet Care
+                </a>
                 <form action="../../app/config/Auth.php" method="POST" class="border-l-4 border-transparent">
                     <button type="submit" name="logout" class="block w-full text-left pl-3 pr-4 py-2 text-base font-medium text-red-700 hover:bg-gray-50 hover:border-gray-300">
                         <i class="fas fa-sign-out-alt mr-2"></i> Logout
@@ -146,12 +158,6 @@ redirectBasedOnRole('admin');
         </div>
     </nav>
 
-    <header class="bg-gradient-to-r from-blue-700 to-indigo-800 text-white py-16 text-center shadow-lg">
-        <div class="container mx-auto px-4">
-            <h1 class="text-4xl md:text-5xl font-extrabold mb-4">Welcome, Admin!</h1>
-            <p class="text-lg md:text-xl">Manage your Vet Clinic operations efficiently.</p>
-        </div>
-    </header>
 
     <!-- Your existing content for the admin dashboard goes here -->
 
@@ -166,5 +172,3 @@ redirectBasedOnRole('admin');
             });
         });
     </script>
-</body>
-</html>
